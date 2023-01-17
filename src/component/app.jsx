@@ -1,12 +1,13 @@
 import React from 'react';
 import { Component } from 'react';
+import NavBar from './navBar'
 
 class App extends Component {
   state = {}
   render() {
     return (
       <React.Fragment>
-        <h1>Hello World</h1>
+        <NavBar />
       </React.Fragment>
     )
   }
